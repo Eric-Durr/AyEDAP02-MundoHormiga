@@ -1,6 +1,5 @@
-# AyEDA P02 - La Hormiga de Langton Modificada
+# AyEDA P03 - Mundo Hormigas
 
-Es un programa en C++ que implementa una versión modficada del autómata celular conocido como la Hormiga de Langton.
 
 ## Uso
 
@@ -15,24 +14,8 @@ $ make
 **Para un entorno básico (con la hormiga por defecto en el centro)**
 
 ```bash
-$ ./hormiga_langton <columnas> <filas> <pasos>
+$ ./mundo_hormigas 
 ```
-
-**Para un entorno con la hormiga posicionada a elección del usuario**
-
-```bash
-$ ./hormiga_langton <columnas> <filas> <pasos> <posición i> <posición j>
-```
-
-> > Nota1: las posiciones i y j se encuentran en el rango [0 , (número de filas -1)] y [0 , (número de columnas -1)], respectivamente.
-
-**Para un entorno con la hormiga posicionada a elección del usuario y con la dirección especificada**
-
-```bash
-$ ./hormiga_langton <columnas> <filas> <pasos> <posición i> <posición j> <dirección>
-```
-
-> > Nota2: las direcciones siguen el formato UP (arriba) RI (derecha) DO (abajo) LE (izquierda)
 
 ### **Lanzamiento de los tests**
 
@@ -43,8 +26,8 @@ $ make test
 Se compila y ejecuta el conjunto de tests para luego ejecutarlos, de suceder satisfactoriamente debe aparecer lo siguiente por terminal:
 
 ```bash
-Making tests: hormiga_langton_test
-g++ -o hormiga_langton_test ./src/entorno.cpp ./src/hormiga.cpp ./test/includer.test.cpp
+Making tests: mundo_hormigas_test
+g++ -o mundo_hormigas_test ./src/entorno.cpp ./src/hormiga.cpp ./test/includer.test.cpp
 ./hormiga_langton_test
 ===============================================================================
 All tests passed (38 assertions in 2 test cases)
@@ -53,7 +36,7 @@ All tests passed (38 assertions in 2 test cases)
 También se puede ejecutar un despliegue detallado de los tests si ya se ha lanzado el comando anterior:
 
 ```bash
-$ ./hormiga_langton_test -s
+$ ./mundo_hormigas_test -s
 ```
 
 ## Licencia

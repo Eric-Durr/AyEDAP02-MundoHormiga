@@ -4,8 +4,8 @@
 #  Escuela Superior de Ingeniería y Tecnología.  
 #  Algoritmos y Estructuras de Datos Avanzados | ULL 2º curso de Ingeniería Informática
 #    
-#  Fecha de creación:            20/02/2021
-#  Fecha de última modificación: 22/02/2021
+#  Fecha de creación:            09/03/2021
+#  Fecha de última modificación: 09/03/2021
 # 
 #
 #  Realizado por: Eric Dürr Sierra (alu0101027005)
@@ -23,8 +23,8 @@ DOCUMENTATION_PATH = docs
 DOXYGEN_CONFIGURATION_FILE_NAME = Doxyfile
 
 # Executable file name 
-BIN_NAME = hormiga_langton
-TEST_NAME = hormiga_langton_test
+BIN_NAME = mundo_hormiga
+TEST_NAME = mundo_hormiga_test
 
 # File extentions
 SRC_EXT = cpp

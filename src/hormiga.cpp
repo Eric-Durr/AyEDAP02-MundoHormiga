@@ -4,8 +4,8 @@
   Escuela Superior de Ingeniería y Tecnología.  
   Algoritmos y Estructuras de Datos Avanzados | ULL 2º curso de Ingeniería Informática
     
-  Fecha de creación:            05/03/2021
-  Fecha de última modificación: 08/03/2021
+  Fecha de creación:            09/03/2021
+  Fecha de última modificación: 09/03/2021
  
   Fichero para la implementación de los métodos 
   de la clase hormiga

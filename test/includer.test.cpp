@@ -1,5 +1,5 @@
 /*!
- * ## Assignment 01 | Langton Ant Automaton
+ * ## Assignment 03 | Mundo Hormiga
  * ### Escuela Superior de Ingeniería y Tecnología (ESIT)
  * ### Algoritmia y Estructuras de Datos Avanzados| 2nd course of Informatic Engineering
  *

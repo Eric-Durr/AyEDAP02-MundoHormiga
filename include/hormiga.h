@@ -4,8 +4,8 @@
   Escuela Superior de Ingeniería y Tecnología.  
   Algoritmos y Estructuras de Datos Avanzados | ULL 2º curso de Ingeniería Informática
     
-  Fecha de creación:            20/02/2021
-  Fecha de última modificación: 22/02/2021
+  Fecha de creación:            09/03/2021
+  Fecha de última modificación: 09/03/2021
  
   Fichero que describe la clase que representa 
   el autómata de la hormiga.
